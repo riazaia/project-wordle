@@ -1,5 +1,4 @@
 import Game from "../Game";
-import GuessInput from "../GuessInput/GuessInput";
 import Header from "../Header";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
 
       <div className="game-wrapper">
         <Game />
-        <GuessInput />
       </div>
     </div>
   );
